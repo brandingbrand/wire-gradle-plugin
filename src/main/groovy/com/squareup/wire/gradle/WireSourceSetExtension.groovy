@@ -29,7 +29,8 @@ class WireSourceSetExtension {
     this.project = project
 
     // Set a default srcDir matching the standard directory structure. Can always be overridden.
-    srcDir("src/$sourceSetName/proto")
+    //srcDir("src/$sourceSetName/proto")
+    srcDir("../ax.schemas/proto")
   }
 
   void srcDir(String dir) {
