@@ -9,7 +9,7 @@ dependencies {
   compile localGroovy()
 
   compile 'com.android.tools.build:gradle:1.2.3'
-  compile 'com.bb.wire:wire-compiler:2.0.2'
+  compile 'com.squareup.wire:wire-compiler:2.0.2bb'
 }
 
 repositories {
